@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Animado</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- CARDS -->
+    <section class="container">
+
+
+
+        <div class="card">
+            <div class="content">
+                <h3>Tenha</h3>
+                </br>
+
+                <p>Mentorias com profissionais habilitados</p>
+                </br>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <h3>Faça</h3>
+                </br>
+
+                <p>Networking com o mercado e ecossistema de inovação;</p>
+                </br>
+
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <h3>RECEBA</h3>
+                </br>
+
+                <p>Suporte para desenvolvimento do seu negócio;</p>
+                </br>
+            </div>
+
+        </div>
+
+
+        <div class="card">
+            <div class="content">
+                <h3>Faça</h3>
+                </br>
+
+                <p>Parte do ecossistema do maior Grupo de Educação Católica do Centro-Oeste e um dos maiores do país;</p>
+                </br>
+
+            </div>
+
+        </div>
+
+
+        <!-- Controle do script de animação -->
+        <script type="text/javascript" src="script.js"></script>
+        <script>
+            VanillaTilt.init(document.querySelectorAll(".card"), {
+                max: 25,
+                speed: 300,
+                glare: true,
+                "max-glare": 0.8,
+            });
+        </script>
+    </section>
+
+</body>
+
+
+</html>
